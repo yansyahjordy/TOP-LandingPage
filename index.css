@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     padding:20px;
     width:1300px;
-
+    height:auto;
 }
 
 .content{
@@ -54,7 +54,8 @@ body {
     padding:20px;
     justify-content: space-between;
     width:1300px;
-
+    height:400px;
+    align-items: center;
 }
 
 ul {
@@ -81,6 +82,7 @@ h1{
 }
 
 .content2{
+    height:500px;
     
 }
 
@@ -97,14 +99,14 @@ h1{
     justify-content: center;
 }
 .block-container{
-    width:100px;
+    width:180px;
     text-align: center;
-    margin:20px;
+    margin:30px;
 }
 .block{
     border: 5px solid #3882F6;
-    height:100px;
-    width: 100px;
+    height:180px;
+    width: 180px;
     border-radius: 20px;
 }
 
@@ -116,14 +118,65 @@ h1{
     font-size: 36px;
     color: #1F2937;
     text-align: justify;
+    font-style: italic;
 }
 
 .caption{
     text-align: end;
+    font-weight: bold;
 }
 
 .bg2{
     background-color: #E5E7EB;
     display:flex;
     justify-content: center;
+    height:400px;
+    align-items: center;
+
+}
+
+.content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+}
+.action-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1300px;
+    height:200px;
+    border-radius: 20px;
+}
+
+.action{
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size:30px;
+}
+
+.action-caption{
+    color: #F9FAF8;
+    font-size: 20px;
+}
+.action-btn{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 150px;
+    height:50px;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    font-size:25px;
+    font-weight:bold;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 80px;
+    
 }
