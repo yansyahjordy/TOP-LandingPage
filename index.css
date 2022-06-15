@@ -25,7 +25,7 @@ body {
     display:flex;
     justify-content: space-between;
     padding:20px;
-    width:1300px;
+    width:1000px;
     height:auto;
 }
 
@@ -42,6 +42,28 @@ body {
     margin:auto 5px;
     font-weight: bold;
 }
+.btn1{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 150px;
+    height:50px;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+.img-container{
+    width:800px;
+    height:250px;
+    background-color: #E5E7EB;
+    margin-left: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+   
+}
 .bg1{
     background-color: #1F2937;
     display:flex;
@@ -53,7 +75,7 @@ body {
     display:flex;
     padding:20px;
     justify-content: space-between;
-    width:1300px;
+    width:1000px;
     height:400px;
     align-items: center;
 }
@@ -74,6 +96,7 @@ h1{
     font-size: 48px;
     font-weight: bold;
     color:#F9FAF8;
+    margin-bottom: 20px;
 }
 
 .sec-text{
@@ -108,10 +131,11 @@ h1{
     height:180px;
     width: 180px;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 .content3{
-    width:1300px;
+    width:1000px;
 
 }
 .quote{
@@ -146,7 +170,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    width: 1300px;
+    width: 1000px;
     height:200px;
     border-radius: 20px;
 }
